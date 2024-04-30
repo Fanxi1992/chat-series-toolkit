@@ -1,9 +1,6 @@
 import re
 import dotenv
 import cohere
-import asyncio
-import os
-from openai import OpenAI
 from pinecone import Pinecone
 import os
 from langchain_openai import OpenAIEmbeddings

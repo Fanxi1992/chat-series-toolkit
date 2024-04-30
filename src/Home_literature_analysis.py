@@ -14,16 +14,10 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain.prompts import ChatPromptTemplate
 from streamlit_extras.add_vertical_space import add_vertical_space
 from streamlit_extras.altex import scatter_chart
-from annotated_text import annotated_text
-from annotated_text import annotated_text, annotation
 from streamlit_extras.app_logo import add_logo
 from streamlit_extras.badges import badge
 from streamlit_extras.bottom_container import bottom
 from streamlit_extras.chart_annotations import get_annotations_chart
-import pandas as pd
-from streamlit_extras.chart_container import chart_container
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.customize_running import center_running
